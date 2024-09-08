@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    border-bottom: solid black 1px;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar__s2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar__s1 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.navbar__s3 button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.navbar__s3 button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.navbar__s0 {
+    display: none;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.navbar__s1 img {
+    width: 35px;
+    border-radius: 100%;
+    padding: 8px;
+    position: relative;
+    bottom: 7px;
+}
+
+.categories__title {
+    position: relative;
+    margin-left: 40%;
+    padding-top: 30px;
+
+}
+
+.categories__items {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    margin-left: 25%;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.search {
+    border: solid black 1px;
+    padding: 10px;
+
+    border-radius: 30px;
+    width: 500px;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 20px;
+
+}
+
+.search input {
+    border: none;
+    font-size: 18px;
+}
+
+.search button {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 200px;
+
+
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.main-image img {
+    width: 80%;
+    background-color: blueviolet;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.content {
+    padding: 5px;
+    margin: 10px;
+}
+
+.content p {
+    padding-top: 10px;
+}
+
+.addimage {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.addimage__1 h2 {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    width: 82%;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0);
+    padding: 10px;
+}
+
+.addimage2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.addimage2__title {
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.addimage2__title p {
+    font-size: 18px;
+}
+
+.addimage1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.addimage1__title {
+    padding: 10px;
+}
+
+.addimage1__title p {
+    font-size: 18px;
+}
+
+.addimage4__img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-basis: 30%;
+    flex-grow: 1;
+    gap: 20px;
+
+
+}
+
+.addimage4__title {
+    padding: 10px;
+    padding: 25px;
+    font-size: 30px;
+
+}
+
+.addimage4 {
+    border: solid black 1px;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+}
+
+.addimage4__img1 p {
+    font-size: 20px;
+}
+
+.addimage4__img1 img {
+    width: 380px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5%;
+
+}
+
+.footer__one {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.footer__two {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.footer__three {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__two__s2 h2 {
+    display: flex;
+}
+
+.footer {
+    background-color: bisque;
+    border: solid black 1px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer__two__s3 button {
+    display: flex;
+    position: relative;
+    margin-left: 700px;
+}
+
+/* Media query */
+@media screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .navbar__s0{
+        display: block;
+    }
+    .navbar__s2{
+        display: none;
+    }
+    .addimage{
+        flex-basis: 40%;
+    }
+    .search{
+        flex-direction: column;
+        align-items: normal;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .search button{
+        padding: 10px;
+        border-bottom:1px s0lid rgb(0,0,0,0.5);
+    }
+    .addimage__1{
+        width:30px;
+    }
+    .course-card{
+        width: 20px;
+    }
+.addimage4__img{
+    width:20px;
+    flex: basics;
+
+}
+    
+}
